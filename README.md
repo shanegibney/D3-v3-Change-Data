@@ -1,7 +1,9 @@
-# D3 v4 Mouseover Bar Chart
+# D3 v3 Change Data Bar Chart
 
-Mouseover the bars of the bar chart to change their fill colour.
+A basic bar chart with changeable data.
 
-Demo: [gh-pages](https://shanegibney.github.io/D3-v4-Mouseover-Bar-Chart/)
+The y-axis domain updates with a change of data but not the x domain. (I'll work on that in another version!)
 
-<img width="463" alt="screen shot 2017-08-07 at 22 35 21" src="https://user-images.githubusercontent.com/17167992/29046765-ca3557e2-7bc0-11e7-9270-d14d81745e05.png">
+Demo: [gh-pages](https://shanegibney.github.io/d3-v4-Change-Data/)
+
+<img width="612" alt="screen shot 2017-08-19 at 11 35 23" src="https://user-images.githubusercontent.com/17167992/29485976-f1019b3a-84d3-11e7-966a-1035665be96a.png">

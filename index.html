@@ -137,29 +137,5 @@
     document.getElementById("thisPostInput")
       .onclick = updateThisPost;
     updateDefault();
-
-    function freqs(str) {
-      var s = str.toUpperCase()
-      var n = s.length
-      var x = {}
-      for (var i = 0; i < chars.length; i++) {
-        x[chars[i]] = 0;
-      }
-      for (var i = 0; i < s.length; i++) {
-        if (/[A-Z]/.test(s[i])) {
-          x[s[i]]++;
-        }
-      }
-      var f = []
-      for (var c in x) {
-        f.push({
-          name: c,
-          value: x[c] /= n
-        });
-      }
-      console.log(f);
-      // return f;
-
-    }
   </script>
 </body>
